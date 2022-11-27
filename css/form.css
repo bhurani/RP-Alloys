@@ -1,0 +1,39 @@
+/* Form  */
+form {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 24px;
+    width: 550px;
+}
+
+input,
+textarea {
+    color: var(--blue-2);
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.25em; /* 25px */
+    padding: 21px;
+    background-color: var(--white);
+    border: none;
+    border-radius: 7.75258px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--blue-2);
+    opacity: 0.5;
+}
+
+input[type=submit] {
+    width: 195px;
+    color: var(--white);
+    font-weight: 600;
+    cursor: pointer;
+    background-color: var(--red-1);
+    border-radius: 40.2445px;
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        width: 100%;
+    }
+}

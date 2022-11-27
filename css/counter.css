@@ -1,0 +1,35 @@
+.counter {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 50px;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.counter li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.counter .vertical-bar {
+    background-color: var(--grey-2);
+}
+
+.counter p {
+    font-size: 1.875rem; /* 30px */
+    line-height: 1.167em; /* 35px */
+}
+
+.counter p b {
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+    .counter {
+        grid-template-columns: auto;
+    }
+
+    .counter li {
+        text-align: left;
+    }
+}

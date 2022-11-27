@@ -1,0 +1,42 @@
+#banner {
+    padding: 0 75px;
+}
+
+#banner .row {
+    background-color: var(--grey-1);
+    background-image: url("../img/png/banner.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    min-height: 866px;
+}
+
+#banner .col {
+    color: var(--white);
+    padding: 107px 115px;
+}
+
+#banner img {
+    max-width: 100%;
+    margin-top: 97px;
+    margin-left: -115px;
+}
+
+@media screen and (max-width: 768px) {
+    #banner {
+        padding: 0;
+    }
+
+    #banner .row {
+        min-height: auto;
+    }
+
+    #banner .col {
+        padding: 25px;
+    }
+
+    #banner img {
+        margin-left: -25px;
+    }
+}

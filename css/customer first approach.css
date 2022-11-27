@@ -1,0 +1,21 @@
+#customer-first-approach {
+    padding: 150px 25px 523px;
+    background-color: var(--grey-5);
+    background-image: url("../img/png/wing\ left.png"), url("../img/png/wing\ right.png");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: bottom left, top right;
+    margin-bottom: 484px;
+}
+
+#customer-first-approach .row {
+    width: 1136px;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    #customer-first-approach {
+        padding-bottom: 150px;
+        margin-bottom: 100px;
+    }
+}

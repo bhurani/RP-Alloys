@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "ITC Avant Garde Gothic Std";
+    src: url("../font/itc avant garde gothic std/300.otf");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Gothic Std";
+    src: url("../font/itc avant garde gothic std/400.otf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Gothic Std";
+    src: url("../font/itc avant garde gothic std/500.otf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Gothic Std";
+    src: url("../font/itc avant garde gothic std/600.otf");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Gothic Std";
+    src: url("../font/itc avant garde gothic std/700.otf");
+    font-style: normal;
+    font-weight: 700;
+}

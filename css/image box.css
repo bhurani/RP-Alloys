@@ -1,0 +1,27 @@
+.image-box {
+    display: grid;
+    grid-template-columns: repeat(4, 445px);
+    gap: 44px;
+    margin-top: 138px;
+    position: absolute;
+}
+
+.image-box li {
+    list-style-type: none;
+    display: grid;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.07);
+}
+
+.image-box h4 {
+    background-color: var(--white);
+    font-size: 1.875rem; /* 30px */
+    line-height: 1.433em; /* 43px */
+    padding: 43px 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .image-box {
+        grid-template-columns: auto;
+        position: relative;
+    }
+}

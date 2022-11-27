@@ -1,0 +1,26 @@
+#industry-we-serve {
+    padding: 0 25px 216px;
+}
+
+#industry-we-serve .row {
+    width: 1320px;
+    margin: auto;
+}
+
+#industry-we-serve .col {
+    width: 1320px;
+}
+
+#industry-we-serve h2 {
+    font-weight: 600;
+    font-size: 5.625; /* 90px */
+}
+
+#industry-we-serve .col > img {
+    margin: 30px 0 30px -23px;
+}
+
+#industry-we-serve .row:nth-child(1) p {
+    color: var(--grey-8);
+    font-size: 1.563rem; /* 25px */
+}

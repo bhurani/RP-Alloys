@@ -1,0 +1,31 @@
+#world-class-machine-and-infra {
+    color: var(--white);
+    background-color: var(--grey-1);
+    background-image: url("../img/png/world class machine & infra.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+#world-class-machine-and-infra .row {
+    min-height: 1050px;
+    max-width: 1320px;
+    margin: auto;
+    padding: 205px 25px 182px;
+    display: grid;
+    grid-template-columns: 700px auto;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#world-class-machine-and-infra h6 {
+    color: inherit;
+}
+
+@media only screen and (max-width: 768px) {
+    #world-class-machine-and-infra .row {
+        grid-template-columns: auto;
+    }
+}

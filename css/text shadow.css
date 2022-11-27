@@ -1,0 +1,18 @@
+/* Text Shadow */
+.text-shadow {
+    height: 85px;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.text-shadow h2 {
+    color: var(--white);
+    text-shadow: -1px 0 var(--black), 0 1px var(--black), 1px 0 var(--black), 0 -1px var(--black);
+    background-color: var(--white);
+    position: absolute;
+    top: 0;
+}
+
+.text-shadow h2:nth-child(2) {
+    top: 40px;
+}
